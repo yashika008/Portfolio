@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;600&family=Libre+Franklin:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;600&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto+Mono&display=swap');
+
+.sidebar {
+    background-color: rgb(163, 163, 163);
+    width: 350px;
+    height: 100vh;
+
+}
+
+
+.sidebar nav {
+    font-size: 30px;
+
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*  background-color: yellow;*/
+    width: 90vw;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.infoContainer {
+    /*background-color: rgb(18, 211, 47);*/
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    margin: 120px auto;
+    justify-content: space-around;
+
+
+}
+
+.devPic img {
+    height: 58vh;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bitter', serif;
+}
+
+.Hello {
+    font-size: 50px;
+
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    margin-top: 5px;
+}
+
+.about {
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.moreabout {
+    font-size: 10px;
+    font-family: 'Bitter', serif;
+    margin-top: 10 px;
+
+    padding: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.buttons button {
+    margin-top: 10px;
+    border-radius: 17px;
+
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: rgb(96, 171, 246);
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: rgb(40, 47, 53);
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: 'Bitter', serif;
+}
+
+.contactform h1 {
+  margin-left: 16px;
+    font-family: 'Roboto Mono', monospace;
+    
+  
+}
+.contactform form div {
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+
+.contactform form label {
+    padding: 100px 0;
+    margin-left: 18px;
+}
+.btn-primary {
+    padding: 19px 0;
+    margin-left: 50px;
+    width: 100px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+   
+    cursor: pointer;
+     line-height: 0px; 
+}
+.btn-primary:hover {
+    background-color: grey;
+}
+#clientemail{
+    display: flex;
+    width: 500px;
+    margin-left: 19px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+#phone{
+    display: flex;
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+#project{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#pro{
+    font-size: 12px;
+    margin-left:4px;
+}
+#emailHelp{
+    font-size: 15px;
+    margin-top: 3px;
+    
+}
+#enquiries{
+    display: flex;
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.blogcontainer{
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.blogItem p{
+   
+    margin-left:30px;
+}
+.blogItem h2{
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.butto{
+    margin-top: 10px;
+    border-radius: 13px;
+    margin-left: 20px;
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: rgb(96, 171, 246);
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.butto:hover{
+    background-color: gray;
+}
+.intro1 h1{
+    margin-left: 30px;
+}
+.intro1 h2{
+    margin-left: 30px;
+}
+.intro1 p{
+    margin-left: 34px;
+}
+.skillcontainer{
+    text-decoration: none;
+    list-style: none;
+}
+
+.skillItem{  border: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.skill{ border: 1px solid black;
+ 
+    width: 200px;
+    height: 6px;
+    background-color: red;
+}
+.fifty{  border: 1px solid black;
+   
+    width: 100px;
+    height: 6px;
+    background-color: yellow;
+}
+
+.tf{border: 1px solid black;
+
+    width: 126px;
+    height: 6px;
+    background-color: blue;
+}
+
+@media (max-width: 800px){
+*{
+    background-color:red;}
+
+}
